@@ -18,24 +18,6 @@ class Items {
     this.color,
     this.img,
   });
-//   factory Items.fromMap(Map<String, dynamic> map) {
-//     Items(
-//       id: map["id"],
-//       name: map["name"],
-//       desc: map["desc"],
-//       price: map["price"],
-//       color: map["color"],
-//       img: map["img"],
-//     );
-//   }
-//   toMap() => {
-//         "id": id,
-//         "name": name,
-//         "desc": desc,
-//         "price": price,
-//         "color": color,
-//         "img": img,
-//       };
 
   Items copyWith({
     int id,
